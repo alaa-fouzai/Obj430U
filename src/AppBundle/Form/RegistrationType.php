@@ -17,9 +17,9 @@ class RegistrationType extends AbstractType
     {
         $builder->add('Location', ChoiceType::class, [
             'choices'  => [
-                'Ben Arouse' => 'Ben Arouse',
-                'Tunis' => 'Tunis' ,
-                'Beja' => 'Beja' ,
+                'Ben Arouse' => 'Ben Arouse ',
+                'Tunis' => 'Tunis ' ,
+                'Beja' => 'Beja ' ,
             ],
         ]);
     }
